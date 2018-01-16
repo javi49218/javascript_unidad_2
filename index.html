@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EVALUACION FINAL</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,300,700">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenido">
+		<div id="izq">
+			<h1>Registro de estudiantes</h1>
+			<form id="formu">
+				<div>
+					<span>Codigo:</span>
+					<input type="text" name="codigo" id="codigo">
+				</div>
+				<div>
+					<span>Nombre:</span>
+					<input type="text" name="nombre" id="nombre">
+				</div>
+				<div>
+					<span>Nota:</span>
+					<input type="text" name="nota" id="nota">
+				</div>
+				<p id="mensaje"></p>
+			</form>
+			<div id="botones">
+					<button id="registrar">Registrar estudiante</button>
+					<button id="promedio">Mostrar promedio</button>
+					<button id="mayor">Mostrar mayor nota</button>
+					<button id="menor">Mostrar menor nota</button>
+				</div>
+		</div><div id="der">
+			<h2>Lista de estudiantes</h2>
+			<table id="tabla" cellspacing="0">
+				<thead>
+					<tr>
+						<th>Codigo</th>
+						<th>Nombre</th>
+						<th>Nota</th>
+					</tr>
+				</thead>
+				<tbody id="datos">
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script src="js/codigo.js"></script>
+</body>
+</html>
